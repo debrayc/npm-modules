@@ -1,4 +1,4 @@
-module.exports = _.divide(6, 4);
-// => 1.5){
-  return ('lodash.divide')
+module.exports = function(num1 , num2){
+ // 1.5){
+  return (num1 / num2)
 }

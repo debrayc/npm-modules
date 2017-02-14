@@ -1,5 +1,5 @@
 var {expect} = require("chai")
-var divide = require('lodash.divide')
+var divide = require('../spec/divide')
 
 describe("divide", function() {
   it("should divide num1 by num2", function() {
