@@ -1,6 +1,6 @@
-module.exports =function ( sentence ) {
- function camelcase(match) {
-  return match.toUpperCase()
- }
-  return sentence.replace(/\b[a-z]/g, camelcase).replace(/\s/g, '')
+module.exports =function ( str ) {
+  function upperCase(match) {
+    return match.toUpperCase()
   }
+  return str.replace(/\b[a-z]/g, upperCase).replace(/\s/g, '')
+}
