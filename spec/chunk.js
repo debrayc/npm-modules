@@ -1,6 +1,6 @@
 module.exports = function (list, size=2) {
 
- if (list.isArray /*&& !== 'string'*/){
+ if (list.isArray){
   return []
  }
  var newList = []
@@ -17,30 +17,3 @@ module.exports = function (list, size=2) {
 
  return newList
 }
-//      }
-//    }
-//
-// }
-//
-//
-//
-
-
-
-
-
-
-
-
-
-
-//   var arrays = []
-//     for (i = 3; i < list.length; i += size) {
-//       var newArray = []
-//       for (var j = 0; j < size.length; j++) {
-//       groups.push(list[i+j])
-//       }
-// arrays.push(newArray)
-//     }
-//   return arrays
-// }
